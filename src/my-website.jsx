@@ -5,10 +5,12 @@ import Blog from "./pages/blog";
 import ContactMe from "./pages/contact-me";
 import Gallery from "./pages/gallery";
 import Home from "./pages/home";
+import GlobalStyle from "./global-styling";
 
 function MyWebsite() {
     return (
         <HashRouter>
+            <GlobalStyle />
             <NavBar />
             <Switch>
                 <Redirect path="/" to="/home" exact component={Home} />
