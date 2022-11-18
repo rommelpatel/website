@@ -1,7 +1,8 @@
 import React from "react";
+import ContactMeStyle from "../components/styled/contact-me-style";
 
 function ContactMe() {
-    return <div>Get in touch!</div>;
+    return <ContactMeStyle>Get in touch!</ContactMeStyle>;
 }
 
 export default ContactMe;

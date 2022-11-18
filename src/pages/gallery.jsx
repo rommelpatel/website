@@ -1,7 +1,8 @@
 import React from "react";
+import GalleryStyle from "../components/styled/gallery-style";
 
 function Gallery() {
-    return <div>Gallery</div>;
+    return <GalleryStyle>Gallery</GalleryStyle>;
 }
 
 export default Gallery;
