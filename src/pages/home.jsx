@@ -1,8 +1,22 @@
 import React from "react";
-import HomeStyle from "../components/styled/home-style.jsx";
+import {
+    BackgroundStyle,
+    ComingSoon,
+    LineSeparation,
+    Logo,
+} from "../components/styled/home-style";
 
 function Home() {
-    return <HomeStyle>Home</HomeStyle>;
+    return (
+        <BackgroundStyle>
+            <Logo>Rommel Patel</Logo>
+            <ComingSoon>
+                <h1>Coming Soon</h1>
+                <LineSeparation />
+                <p>to an internet near you</p>
+            </ComingSoon>
+        </BackgroundStyle>
+    );
 }
 
 export default Home;
