@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-const HomeStyle = styled.div`
-    color: #030303;
+export const BackgroundStyle = styled.div`
+    text-align: center;
+    color: white;
+    padding: 50px 20%;
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
 `;
 
-export default HomeStyle;
+export const Separator = styled.hr`
+    margin: 20px 0px;
+`;

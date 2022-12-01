@@ -1,8 +1,17 @@
 import React from "react";
-import HomeStyle from "../components/styled/home-style.jsx";
+import {
+    BackgroundStyle,
+    Separator,
+} from "../components/styled/home-style.jsx";
 
 function Home() {
-    return <HomeStyle>Home</HomeStyle>;
+    return (
+        <BackgroundStyle>
+            <h1>Coming Soon</h1>
+            <Separator />
+            <p>Rommel's Personal Website</p>
+        </BackgroundStyle>
+    );
 }
 
 export default Home;
